@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Figtree">
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+<body class="font-['Figtree'] ">
+  <main class="bg-yellow flex align-items-center justify-content-center min-h-screen">
+    <div class="shadow-[8px_8px_0_0_black] border border-black bg-white flex flex-col m-auto p-6 rounded-[20px] max-w-[90%] md:max-w-[50%] lg:max-w-[25%]"><!-- CARD CONTAINER -->
+      <img 
+        class="rounded-[10px]" 
+        src="./assets/images/illustration-article.svg" 
+        alt="Illustration arcticle">
+      <div class="flex flex-col my-6 gap-3"><!-- CARD CONTENT -->
+        <span class="bg-yellow text-xs w-[82px] h-[29px] rounded-[4px] text-center py-1.5 px-1.5 font-extrabold">
+        Learning</span>
+
+        <span class="text-xs font-medium">Published 21 Dec 2023</span>
+
+        <h1 class="text-xl font-extrabold hover:text-yellow hover:cursor-pointer">HTML & CSS foundations</h1>
+
+        <p class="text-grey text-sm font-medium">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      </div>
+      <div class="flex flex-row gap-4"><!-- AUTHOR -->
+        <img 
+          class="w-8 h-8"
+          src="./assets/images/image-avatar.webp" 
+          alt="Greg Hooper">
+        <div class="font-extrabold text-sm">Greg Hooper</div>
+      </div>    
+    </div>
+  </main>
+</body>
+</html>
