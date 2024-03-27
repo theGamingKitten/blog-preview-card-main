@@ -5,27 +5,3 @@
 .custom-class {
     background-color: aliceblue;
 }
-
-.image-overlay-mb {
-    background: url("../design/mobile-design.jpg") no-repeat center center;
-	background-size: cover;
-    position: absolute;
-    background-attachment: fixed;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-	opacity:.50;
-}
-
-.image-overlay-lg {
-    background: url("../design/desktop-design.jpg") no-repeat center center;
-	background-size: cover;
-    position: absolute;
-    background-attachment: fixed;
-    top: 0px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-	opacity:.50;
-}

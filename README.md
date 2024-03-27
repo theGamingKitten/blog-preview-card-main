@@ -23,15 +23,15 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+### Screenshots
 
 ![](./screenshot.jpg)
 ![](./screenshot_mobile.jpg)
 
 ### Links
 
-- Solution URL: [Source code](https://your-solution-url.com)
-- Live Site URL: [Preview](https://your-live-site-url.com)
+- Solution URL: [Source code](https://github.com/theGamingKitten/blog-preview-card-main)
+- Live Site URL: [Preview](https://thegamingkitten.github.io/blog-preview-card-main/)
 
 ## My process
 
